@@ -28,7 +28,7 @@ public class ListActivity extends AppCompatActivity {
         for (int i = 0; i < 20; i++) {
             if ((i + 1) % 2 == 0) {
                 for (String name : daftar_nama) {
-                repeatedNames.addAll((i + 1) + "." + name);
+                repeatedNames.add((i + 1) + "." + name);
             }
         }
     }
